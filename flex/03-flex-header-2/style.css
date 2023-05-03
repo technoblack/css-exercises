@@ -41,8 +41,10 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  padding: 10px;
 }
 
 ul {
   list-style-type: none;
+  display: flex; 
 }
