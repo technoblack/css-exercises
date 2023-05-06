@@ -12,7 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
+   display: flex;
+  
   
 }
 
@@ -22,8 +23,11 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
  
-  
 }
 
 .logo {
@@ -39,6 +43,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px; 
+ margin-top: 8px;
+ margin-bottom: 8px;
 }
 
 a {
@@ -50,11 +56,13 @@ a {
 
 ul {
   list-style-type: none;
-  display: flex; 
+  display: flex;
+  
 }
 
 .new-button {
   display: flex;
- margin-left: auto;
+  margin-left: auto; 
+ 
  
 }
