@@ -24,3 +24,11 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.group {
+  display: flex; 
+}
+
+.text {
+  
+}
