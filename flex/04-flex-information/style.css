@@ -26,9 +26,21 @@ img {
 }
 
 .group {
-  display: flex; 
+  display: flex;
+}
+
+.first-try { 
+
 }
 
 .text {
-  
+  /*
+  display: flex;
+  flex-wrap: wrap; */
+}
+
+.first-image {
+ /*  display: flex;
+  flex-direction: row; */
+
 }
