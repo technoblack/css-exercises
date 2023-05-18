@@ -25,3 +25,13 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  
+}
