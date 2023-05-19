@@ -28,10 +28,17 @@ input {
 
 li {
   list-style-type: none;
+ 
 }
 
-ul {
+.left-links {
   display: flex;
-  justify-content: space-between;
-  
+  gap: 8px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+
 }
