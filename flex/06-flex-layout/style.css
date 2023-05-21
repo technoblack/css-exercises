@@ -39,8 +39,7 @@ li {
 
 .right-links {
   display: flex;
-  justify-content: end;
-  gap: 8px;
+  gap: 8px; 
   
 
 }
@@ -60,4 +59,9 @@ li {
   display: flex;
   justify-content: center;
   
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
