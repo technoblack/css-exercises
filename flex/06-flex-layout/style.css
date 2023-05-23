@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+ /* display: flex;
+  flex-direction: column; */
+
 }
 
 img {
@@ -35,6 +38,7 @@ li {
 .left-links {
   display: flex;
   gap: 8px;
+
 }
 
 .right-links {
@@ -69,5 +73,13 @@ li {
 .footer {
   display: flex;
   justify-content: space-between;
-  
+  align-self: flex-end;
+  background-color: #eeeeee;
+  position: absolute;
+  bottom: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
