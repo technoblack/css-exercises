@@ -10,9 +10,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   display: flex;
   align-items: center;
+  font-size: 32px;
+  padding-left: 16px;
 }
 
 .footer {
@@ -24,24 +26,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sidebar {
-  width: 300px;
+  max-width: 300px;
   background: royalblue;
   box-sizing: border-box;
- /* flex: 1; */
+  flex: 1; 
+ /* padding: 16px; */
+ 
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
 }
 
 .container {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap; 
+   
+}
 
- 
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
 }
